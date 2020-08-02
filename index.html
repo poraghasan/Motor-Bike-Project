@@ -1,0 +1,554 @@
+<!--
+Author: Hriday Hasan Porag
+Job   : Web Designer  
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Muslim Ummah</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Motorbike Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template" />
+	<!-- Script Files For Load The Web FIles -->
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<!-- start Custom CSS files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
+<!-- Font Awsome Icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link rel="stylesheet" href="css/lightbox.css">
+<!--End Custom CSS files-->
+<!--Start  js -->
+<script src="js/jquery-2.2.3.min.js"></script>  
+<!-- End js -->
+<!-- Start web-fonts -->
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i" rel="stylesheet"> 
+<!-- Ends web-fonts --> 
+</head> 
+<body> 
+	  
+<!-- Start Banner Section -->
+<div id="home" class="banner">
+	<div class="banner-info">
+		<!-- Start Header Section  -->
+		<div class="header">
+			<div class="container">
+				<div class="logo">
+					<h1><a href="index.html">MuslimMotors</a></h1>
+				</div>
+				<div class="menu">
+					<a href="" id="menuToggle"> <span class="navClosed"></span></a>
+					<nav>
+						<a href="#home" class="active scroll">Home</a>
+						<a href="#about" class="scroll">About</a>
+						<a href="#services" class="scroll">services</a>
+						<a href="#news" class="scroll">news</a>
+						<a href="#spec" class="scroll">Specifications</a>
+						<a href="#gallery" class="scroll">Gallery</a>
+						<a href="#contact" class="scroll">Contact</a>
+					</nav>
+					<!--  Start NavBar Toggle  -->
+					<script>
+						(function($){
+							$(document).ready(function (){
+								$('#menuToggle').click (function (e){
+									var $parent = $(this).parent('.menu');
+									$parent.toggleClass('open');
+									var navState = $parent.hasClass('open') ? "hide" : "show";
+									$(this).attr("tilte" , navState + "navigation");
+
+									setTimeout(function (){
+										$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+									},200);
+									e.preventDefault();
+									
+								});
+							});
+						})(jQuery);
+
+					</script>
+					<!--  End NavBar Toggle  -->
+
+				</div>
+			</div>
+		</div>
+		
+		<!-- End Header Section  -->
+
+		<!-- Start Banner text -->
+		<div class="banner-text">
+			<div class="container">
+				<h2>WE OFFER THE BEST <span>MOTORBIKES</span></h2>
+				<a href="#about" class="buy buy-btn scroll">More About</a>
+			</div>
+		</div>
+		<!-- End Banner text -->
+	</div>
+</div>
+<!-- End Banner Section -->
+
+<!-- Start About Section -->
+<div id="about" class="welcome">
+	<div class="container">
+		<div class="welcome-info">
+			<div class="col-md-6 welcome-info-left">
+				<div class="welcome-info-left-info">
+					<h3 class="welcome-info-title"><span>A</span>bout Us</h3>
+					<h6>Worlds Best MOTORCYCLE BRANDS </h6>
+					<p>Each person has its own preferences when it comes to brand, design, performance or any other attribute. You can imagine it is no different from motorcycles in this aspect. Many riders often have a very special relationship with their two-wheeled honey and it is no surprise that they are even pickier when it comes to choosing their road trip partner. </p>
+				</div>
+			</div>
+			<div class="col-md-6 welcome-info-right">
+				<div class="welcome-info-right-img">
+					<img src="./images/img1.jpg" alt="" class="img-responsive">
+				</div>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- End About Section -->
+
+<!-- Start Slide Section -->
+<div class="slide jarallax">
+	<div class="slide-text">
+		<h4>24/7 Customer Service Support</h4>
+		<p>Each person has its own preferences when it comes to brand, design, performance or any other attribute. You can imagine it is no different from motorcycles in this aspect. Many riders often have a very special relationship with their two-wheeled honey and it is no surprise that they are even pickier when it comes to choosing their road trip partner. </p>
+	</div>
+	<div class="clearfix"></div>
+</div>
+<!-- End Slide Section -->
+
+<!-- Start Services Section  -->
+
+<div id="services" class="services">
+	<div class="container">
+		<h3 class="services-title"><span>S</span>ervices</h3>
+		<div class="services-list-info">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 services-column">
+				<span class="fa fa-heart hi-icon" aria-hidden="true"></span>
+				<h5>Customer Satisfation</h5>
+				<p>Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 services-column">
+				<span class="fa fa-gears hi-icon" aria-hidden="true"></span>
+				<h5>Eassy Repairs </h5>
+				<p>Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys. </p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 services-column">
+				<span class="fa fa-check-square-o hi-icon" aria-hidden="true"></span>
+				<h5>Online Services</h5>
+				<p>Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 services-column">
+				<span class="fa fa-wrench hi-icon" aria-hidden="true"></span>
+				<h5>24/7 Customer Support</h5>
+				<p>Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 services-column">
+				<span class="fa fa-bell hi-icon" aria-hidden="true"></span>
+				<h5>All Times Response</h5>
+				<p>Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 services-column">
+				<span class="fa fa-motorcycle hi-icon" aria-hidden="true"></span>
+				<h5>5 Times Free Maintenence </h5>
+				<p>Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys.</p>
+			</div>
+			<div class="clearfix"></div>
+			
+		</div>
+	</div>
+</div>
+<!-- End Services Section  -->
+<!-- Start Specifications  -->
+<div id="spec" class="specification jarallax">
+	<div class="container">
+		<h3 class="spec-title"> <span>S</span>pecifications</h3>
+		<div class="specification-row">
+			<div class="col-md-6 spec-column">
+				<h4>1 . Key Features</h4>
+				<ul>
+					<li>
+						<div class="spec-left">
+							<p>Ex-showroom Price Value</p>
+						</div>
+						<div class="spec-right">
+							<p>$50,85,182</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="spec-left">
+							<p>Displacement</p>
+						</div>
+						<div class="spec-right">
+							<p>346 cc</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="spec-left">
+							<p>Fuel Economy</p>
+						</div>
+						<div class="spec-right">
+							<p>30kml</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="spec-left">
+							<p>No. of Gears</p>
+						</div>
+						<div class="spec-right">
+							<p>5</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="spec-left">
+							<p>Speedometer</p>
+						</div>
+						<div class="spec-right">
+							<p>Analogue</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="spec-left">
+							<p>Latest Technology</p>
+						</div>
+						<div class="spec-right">
+							<p>Available</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+				</ul>
+
+			</div>
+			<div class="col-md-6 spec-column">
+				<h4>2 . Key Features</h4>
+				<ul>
+					<li>
+						<div class="spec-left">
+							<p>Tyre Type</p>
+						</div>
+						<div class="spec-right">
+							<p>Bridgestone</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="spec-left">
+							<p>Bluetooh Connectivity</p>
+						</div>
+						<div class="spec-right">
+							<p>Available</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="spec-left">
+							<p>Stroke</p>
+						</div>
+						<div class="spec-right">
+							<p>90 nm</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="spec-left">
+							<p>Clutch</p>
+						</div>
+						<div class="spec-right">
+							<p>Wet, Multi-plate</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="spec-left">
+							<p>Warranty Time</p>
+						</div>
+						<div class="spec-right">
+							<p>3 Years</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="spec-left">
+							<p>Maximum Torque</p>
+						</div>
+						<div class="spec-right">
+							<p>28 Nm & 4,000 rpm</p>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+				</ul>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- End Specifications  -->
+<!-- Start News Secttion -->
+<div id="news" class="news">
+	<div class="container">
+		<h3 class="news-title"><span>N</span>ews</h3>
+		<div class="news-info">
+			<div class="col-md-4 news-column">
+				<img src="./images/img2.jpg" alt="">
+				<div class="news-info-column">
+					<h5><span>10</span>April</h5>
+					<h4>Milano.</h4>
+					<p>Don't spend time to pick-uo the motorbike.Book and make the check-in on-line</p>
+
+					<div class="article-links">
+						<ul>
+							<li><a href=""><i class="glyphicon glyphicon-heart-empty"></i><span>1,052</span></a></li>
+							<li><a href=""><i class="glyphicon glyphicon-heart-comment"></i><span>10K</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 news-column">
+				<img src="./images/img3.jpg" alt="">
+				<div class="news-info-column">
+					<h5><span>15</span>April</h5>
+					<h4>Ducati.</h4>
+					<p>Don't spend time to pick-uo the motorbike.Book and make the check-in on-line</p>
+
+					<div class="article-links">
+						<ul>
+							<li><a href=""><i class="glyphicon glyphicon-heart-empty"></i><span>1,101</span></a></li>
+							<li><a href=""><i class="glyphicon glyphicon-heart-comment"></i><span>12K</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 news-column">
+				<img src="./images/img4.jpg" alt="">
+				<div class="news-info-column">
+					<h5><span>20</span>April</h5>
+					<h4>Suzuki. </h4>
+					<p>Don't spend time to pick-uo the motorbike. Book and make the check-in on-line</p>
+
+					<div class="article-links">
+						<ul>
+							<li><a href=""><i class="glyphicon glyphicon-heart-empty"></i><span>1,252</span></a></li>
+							<li><a href=""><i class="glyphicon glyphicon-heart-comment"></i><span>14K</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End News Secttion -->
+<!-- Start Gallery  -->
+<div id="gallery" class="gallery">
+	<h3 class="gallery-title"><span>G</span>allery</h3>
+	<div class="gallery-info">
+		<div class="col-sm-6 gallery-grids gallery-grid1">
+			<!-- 1St Image -->
+			<div class="gallery-grid-top">
+				<a href="images/g3.jpg" class="b-link-stripe b-animate-go" data-lightbox="example-set" data-title="Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys. ">
+					<img src="images/g3.jpg" alt="" class="img-responsive">
+					
+					<div class="animation-icon">
+						<span class="animation animation-from-left">
+							<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+						</span>
+					</div>
+				</a>
+				
+			</div>
+
+			<!-- 2nd Image -->
+			<div class="gallery-grids-top">
+				<div class="col-sm-6 col-xs-6 bottom-grids">
+					<a href="images/img2.jpg" class="b-link-stripe b-animate-go" data-lightbox="example-set" data-title="Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys.
+					5 Times Free Maintenence">
+					<img src="images/img2.jpg" alt="" class="img-responsive">
+					<div class="animation-icon">
+						<span class="animation animation-from-left">
+							<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+						</span>
+					</div>
+					</a>
+				</div>
+			<!-- 3rd Images -->
+			<div class="col-sm-6 col-xs-6 bottom-grids">
+				<a href="images/img4.jpg" class="b-link-stripe b-animate-go" data-lightbox="example-set" data-title="Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys.
+				5 Times Free Maintenence">
+				<img src="images/img4.jpg" alt="" class="img-responsive">
+				<div class="animation-icon">
+					<span class="animation animation-from-left">
+						<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+					</span>
+				</div>
+				</a>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+		</div>
+
+		<!-- Grid 2 / images 4 -->
+		<div class="col-sm-3 col-xs-6 gallery-grids gallery-grid2">
+			<a href="images/g2.jpg" class="b-link-stripe b-animate-go" data-lightbox="example-set" data-title="Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys.
+				5 Times Free Maintenence">
+				<img src="images/g2.jpg" alt="" class="img-responsive">
+				<div class="animation-icon">
+					<span class="animation animation-from-left">
+						<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+					</span>
+				</div>
+				</a>
+		</div>
+		<!-- grid 3 / images 5 -->
+		<div class="col-sm-3 col-xs-6 gallery-grids gallery-grid3">
+			<a href="images/g1.jpg" class="b-link-stripe b-animate-go" data-lightbox="example-set" data-title="Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys.
+				5 Times Free Maintenence">
+				<img src="images/g1.jpg" alt="" class="img-responsive">
+				<div class="animation-icon">
+					<span class="animation animation-from-left">
+						<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+					</span>
+				</div>
+				</a>
+				<a href="images/img1.jpg" class="b-link-stripe b-animate-go" data-lightbox="example-set" data-title="Text message surveys. Mobile survey. 24/7 Customer Support. Real-time surveys. Unlimited Online Surveys.
+				5 Times Free Maintenence">
+				<img src="images/img1.jpg" alt="" class="img-responsive">
+				<div class="animation-icon">
+					<span class="animation animation-from-left">
+						<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+					</span>
+				</div>
+				</a>
+		</div>
+		<div class="clearfix"></div>
+		<script src="js/lightbox-plus-jquery.min.js"></script>
+	</div>
+</div>
+<!-- End Gallery  -->
+<!-- Start Contact  -->
+<div id="contact" class="contact">
+	<div class="container">
+		<h3 class="contact-title"><span>C</span>ontact Us</h3>
+		<div class="contact-info">
+			<div class="col-md-5 address">
+				<h4>Get In Touch With Us</h4>
+				<p class="contact-para">Don't spend time to pick-uo the motorbike. Check the price on-line. Book and make the check-in on-line</p>
+				<div class="contact-social-icons">
+					<ul class="icons-list">
+						<li><a href="" class="facebok"><i class="fa fa-facebook f1" aria-hidden="true"></i></a></li>
+						<li><a href="" class="twitter"><i class="fa fa-twitter t1" aria-hidden="true"></i></a></li>
+						<li><a href="" class="dribbble"><i class="fa fa-dribbble d1" aria-hidden="true"></i></a></li>
+						<li><a href="" class="vimeo"><i class="fa fa-vimeo v1" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<p>Sylhet , Bangladesh</p>
+				<p>Mobile : 01762-195674</p>
+				<p class="Email">Email : <a href="#">Hriday@gmail.com</a></p>
+			</div>
+			<div class="col-md-7 contact-form">
+				<form action="#" method="POST">
+					<input type="text" name="Name" value="Name" required="">
+					<input type="email" name="Email" value="Email" required="">
+					<textarea name="Message"required=""></textarea>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="google-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.5956393823294!2d91.90191791437213!3d24.911770849335685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054a3c17d58ff%3A0x63cbbf61b7c9be16!2sSylhet%20Engineering%20College%20-%20SEC!5e0!3m2!1sen!2sbd!4v1593517700277!5m2!1sen!2sbd" width="100%"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+	</div>
+</div>
+
+<!-- End Contact  -->
+<!-- Start footer -->
+<div class="footer">
+	<div class="container">
+		<div class="footer-row">
+			<div class="col-md-4 footer-info footer-grid">
+				<h3>Contact Us :</h3>
+				<ul>
+					<li><i class="glyphicon glyphicon-send"></i>Sylhet Sadar , Sylhet , Bangladesh</li>
+					<li><i class="glyphicon glyphicon-phone"></i>01762-195674</li>
+					<li><i class="glyphicon glyphicon-envelope"></i><a>Hriday@gmail.com</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 footer-subscribe footer-grid">
+				<h3>Newsletter :</h3>
+				<form action="#" method="POST">
+					<input type="email" name="Email" placeholder="Your Email" required="">
+					<input type="submit" value="Subscribe">
+					<div class="clearfix"></div>
+				</form>
+			</div>
+
+			<div class="col-md-4 footer-icons footer-grid">
+				<h3>Follow Us :</h3>
+				<div class="social-icons">
+					<ul class="social-icons-list">
+						<li><a href="" class="facebok"><i class="fa fa-facebook f1" aria-hidden="true"></i></a></li>
+						<li><a href="" class="twitter"><i class="fa fa-twitter t1" aria-hidden="true"></i></a></li>
+						<li><a href="" class="dribbble"><i class="fa fa-dribbble d1" aria-hidden="true"></i></a></li>
+						<li><a href="" class="vimeo"><i class="fa fa-vimeo v1" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; 2020 MuslimMotors. All Rights reserved | Design By <a href="#">Hriday Hasan Porag</a></p>
+		</div>
+	</div>
+</div>
+<!-- End Fotter -->
+<!-- Jarallax -->
+<script src="js/SmoothScroll.min.js"></script>
+<script src="js/jarallax.js"></script>
+<script type="text/javascript">
+// init Jarallax
+$('.jarallax').jarallax({
+	speed: 0.5,
+	imgWidth : 1366,
+	imgHeight:768
+})
+
+</script>
+<!-- // jarallax -->
+<!-- Start smoth scrolling -->
+<script src="js/move-top.js" type="text/javascript"></script>
+<script src="js/easing.js" type="text/javascript"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$(".scroll").click(function(event){
+			event.preventDefault();
+
+			$('html,body').animate({scrollTop : $(this.hash).offset().top},1000)
+		});
+	});
+</script>
+<!-- End smoth scrolling -->
+<!-- Start Smooth Scrolling Move-Up -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$().UItoTop({ easingType : 'easeOutQuart'});
+	});
+</script>
+<!-- End Smooth Scrolling Move-Up -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
+	
+</body>
+</html>
